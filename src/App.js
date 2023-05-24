@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './view/style/Style.css'
 import { Container, Row, Col, Button, Nav, Form, NavDropdown, Navbar, FormText, } from 'react-bootstrap';
 import Cartshow from './view/screen/Cartshow';
+import Payment from './view/screen/Payment';
 
 function App() {
 
@@ -85,6 +86,7 @@ function logout(){
          {/*  <Route path='/about' element={<About />} /> */}
            <Route path='/Details' element={<Details />} /> 
            <Route path='/cartshow' element={<Cartshow />} /> 
+           <Route path='/payment' element={<Payment />} /> 
            
           <Route path='/Register' element={<Register/>} />
           <Route path='/Login' element={<Login/>} />

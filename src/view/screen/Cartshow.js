@@ -94,7 +94,7 @@ export default function Cartshow(){
                
 <Col className="">
 <div className="m-4 position-fixed bg-success w-25">
-<center> <Button onClick={()=>nav('/orderplace',{state:pay})}>Proceed to Payment</Button></center>
+<center> <Button onClick={()=>nav('/payment',{state:pay})}>Proceed to Payment</Button></center>
      <p className="border m-4 p-4 text-light">
         Total pay:{pay}
      </p>
